@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 SAP-RuntimeProfile: iflmap
 Bundle-SymbolicName: split_1
 Bundle-Name: split_1
-Bundle-Version: 1.0.34
+Bundle-Version: 1.0.35
 Bundle-ManifestVersion: 2
 Origin-Bundle-SymbolicName: split_1
 SAP-NodeType: IFLMAP
