@@ -1830,7 +1830,7 @@
         </bpmn2:callActivity>
         <bpmn2:startEvent id="StartEvent_38912" name="Start Timer 1">
             <bpmn2:outgoing>SequenceFlow_38913</bpmn2:outgoing>
-            <bpmn2:timerEventDefinition id="TimerEventDefinition_638584">
+            <bpmn2:timerEventDefinition id="TimerEventDefinition_250405">
                 <bpmn2:extensionElements>
                     <ifl:property>
                         <key>scheduleKey</key>
@@ -2021,7 +2021,7 @@
                     <value>ctype::FlowstepVariant/cname::GatewayRoute/version::1.0.0</value>
                 </ifl:property>
             </bpmn2:extensionElements>
-            <bpmn2:conditionExpression id="FormalExpression_SequenceFlow_25_1747717560429" xsi:type="bpmn2:tFormalExpression">${property.CamelResponseCode} != '200'</bpmn2:conditionExpression>
+            <bpmn2:conditionExpression id="FormalExpression_SequenceFlow_25_1747733919161" xsi:type="bpmn2:tFormalExpression">${property.CamelResponseCode} != '200'</bpmn2:conditionExpression>
         </bpmn2:sequenceFlow>
         <bpmn2:sequenceFlow id="SequenceFlow_30" name="UpdateArticle" sourceRef="ExclusiveGateway_24" targetRef="CallActivity_108">
             <bpmn2:extensionElements>
@@ -2038,7 +2038,7 @@
                     <value>ctype::FlowstepVariant/cname::GatewayRoute/version::1.0.0</value>
                 </ifl:property>
             </bpmn2:extensionElements>
-            <bpmn2:conditionExpression id="FormalExpression_SequenceFlow_30_1747717560429" xsi:type="bpmn2:tFormalExpression">${property.CamelResponseCode} = '200'</bpmn2:conditionExpression>
+            <bpmn2:conditionExpression id="FormalExpression_SequenceFlow_30_1747733919161" xsi:type="bpmn2:tFormalExpression">${property.CamelResponseCode} = '200'</bpmn2:conditionExpression>
         </bpmn2:sequenceFlow>
         <bpmn2:sequenceFlow id="SequenceFlow_107" sourceRef="CallActivity_106" targetRef="ServiceTask_124"/>
         <bpmn2:sequenceFlow id="SequenceFlow_113" sourceRef="CallActivity_111" targetRef="ServiceTask_120"/>
@@ -2719,7 +2719,7 @@
                     <value>ctype::FlowstepVariant/cname::GatewayRoute/version::1.0.0</value>
                 </ifl:property>
             </bpmn2:extensionElements>
-            <bpmn2:conditionExpression id="FormalExpression_SequenceFlow_38825_1747717560434" xsi:type="bpmn2:tFormalExpression">${property.CamelResponseCode} = '200'</bpmn2:conditionExpression>
+            <bpmn2:conditionExpression id="FormalExpression_SequenceFlow_38825_1747733919166" xsi:type="bpmn2:tFormalExpression">${property.CamelResponseCode} = '200'</bpmn2:conditionExpression>
         </bpmn2:sequenceFlow>
         <bpmn2:sequenceFlow id="SequenceFlow_38822" name="Route 1" sourceRef="ExclusiveGateway_38821" targetRef="CallActivity_38828">
             <bpmn2:extensionElements>
@@ -2736,7 +2736,7 @@
                     <value>ctype::FlowstepVariant/cname::GatewayRoute/version::1.0.0</value>
                 </ifl:property>
             </bpmn2:extensionElements>
-            <bpmn2:conditionExpression id="FormalExpression_SequenceFlow_38822_1747717560434" xsi:type="bpmn2:tFormalExpression">${property.CamelResponseCode} != '200'</bpmn2:conditionExpression>
+            <bpmn2:conditionExpression id="FormalExpression_SequenceFlow_38822_1747733919166" xsi:type="bpmn2:tFormalExpression">${property.CamelResponseCode} != '200'</bpmn2:conditionExpression>
         </bpmn2:sequenceFlow>
         <bpmn2:sequenceFlow id="SequenceFlow_38832" sourceRef="CallActivity_38831" targetRef="ServiceTask_38838"/>
         <bpmn2:sequenceFlow id="SequenceFlow_38835" sourceRef="CallActivity_38826" targetRef="ServiceTask_38843"/>
