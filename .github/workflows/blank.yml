@@ -1,0 +1,17 @@
+name: Trigger REST API
+
+on:
+  push:
+    branches:
+      - main  # or any branch you want
+
+jobs:
+  call-api:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call REST API
+        run: |
+          curl -X POST https://api.example.com/endpoint \
+               -H "Content-Type: application/json" \
+               -H "Authorization: Bearer ${{ secrets.API_TOKEN }}" \
+               -d '{"key":"value"}'
